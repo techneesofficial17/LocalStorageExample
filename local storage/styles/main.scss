@@ -1,0 +1,48 @@
+.list {
+    max-width: 15vw;
+    text-align: left;
+}
+
+#main {
+    display: inline-block;
+    padding: 20px;
+    visibility: hidden;
+}
+
+input {
+    padding: 2px 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    font-family: Ubuntu;
+    font-weight: 100;
+}
+
+button {
+    padding: 2px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.localStorage {
+    h3 {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 10px 20px;
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+}
+
+#hide {}
